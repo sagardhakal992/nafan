@@ -20,6 +20,7 @@ class MemberResource extends JsonResource
             "email"=>$this->email,
             "phone_number"=>$this->phone_number,
             "name"=>$this->name,
+            'created_at'=>$this->created_at,
             "age"=>$this->age,
             $this->mergeWhen($this->profile_image,[
                 "profile_image"=>$this->profile_image
