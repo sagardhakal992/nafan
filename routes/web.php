@@ -33,5 +33,5 @@ Route::get("/contact", function () {
 Route::group(["prefix" => "projects"], function () {
     Route::get("/", [ProjectWebController::class, "getCurrentProject"]);
     Route::get("/past-projects", [ProjectWebController::class, "getPastProject"]);
-    Route::get("/details/{id}", [ProjectWebController::class, "show"]);
+    Route::get("/details/{id}", [ProjectWebController::class, "getProjectDetails"]);
  });
