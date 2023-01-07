@@ -9,7 +9,9 @@
        <strong>Donor(s):</strong>{{$project->donor}}
     </p>
 
-    {!!$project->description!!|}
+    <?php
+	echo $project->description;
+?>
 
  </div>
 
