@@ -32,4 +32,20 @@ class ProjectWebController extends Controller
             return view("welcome");
         }
     }
+
+
+    public function getProjectDetails($id)
+    {
+        try{
+            $project = Project::find($id);
+            if($project){
+                return redirect("/");
+            }
+            return view("ProjectDetail", ["project" => $project]);
+        }
+        catch(Exception $e)
+        {
+            return view("welcome");
+        }
+    }
 }

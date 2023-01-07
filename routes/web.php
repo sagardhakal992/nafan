@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PostWebController;
+use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\ProjectWebController;
 use Illuminate\Support\Facades\Route;
 
@@ -32,4 +33,5 @@ Route::get("/contact", function () {
 Route::group(["prefix" => "projects"], function () {
     Route::get("/", [ProjectWebController::class, "getCurrentProject"]);
     Route::get("/past-projects", [ProjectWebController::class, "getPastProject"]);
+    Route::get("/details/{id}", [ProjectWebController::class, "show"]);
  });
