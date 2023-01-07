@@ -2,6 +2,7 @@
 
 namespace App\Http\Resources\Member;
 
+use App\Http\Resources\Role\RoleResource;
 use Illuminate\Http\Resources\Json\JsonResource;
 
 class MemberResource extends JsonResource
@@ -22,7 +23,8 @@ class MemberResource extends JsonResource
             "age"=>$this->age,
             $this->mergeWhen($this->profile_image,[
                 "profile_image"=>$this->profile_image
-            ])
+            ]),
+            "role"=>new RoleResource($this->role)
 
         ];
     }
