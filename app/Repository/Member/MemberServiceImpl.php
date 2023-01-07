@@ -67,7 +67,7 @@ class MemberServiceImpl implements MemberService
 	 */
 	public function getAllMember() {
         return TryCatchHelper::tryCatchThrow(function () {
-            $members = Member::where("id","!",1)->paginate(25);
+            $members = Member::where("id","!=",1)->paginate(25);
             return $members;
         });
 	}
