@@ -51,10 +51,13 @@
                            <div class="shadow p-3 bg-white">
                               <h2 class="panel-head-text">Latest Post</h2>
                               <div class="news">
-                                 <a href="/news/details/5">
+
+                                 @foreach ($posts as $post)
+                                 <a href={{"/news/details/".$post->id}}>
                                     <p>Opportunity for Internship</p>
-                                    <small> <i class="fa fa-calendar"></i> 16 Dec 2022</small>
+                                    <small> <i class="fa fa-calendar"></i> {{\Carbon\Carbon::parse($post->created_at)->diffForHumans()}}</small>
                                  </a>
+                                 @endforeach
                               </div>
                            </div>
                         </div>
@@ -118,17 +121,19 @@
                                        <div class="panel panel-default panel-project">
                                           <div class="panel-heading">
                                              <h4 class="panel-title">
-                                                <a  href="https://www.ansab.org.np/sub/current-projects">CURRENT PROJECTS</a>
+                                                <a  href="/projects">CURRENT PROJECTS</a>
                                              </h4>
                                           </div>
                                           <div id="collapse1" class="panel-collapse collapse in">
                                              <div class="panel-body">
                                                 <ul>
+                                                   @foreach ($currentProjects as $project)
                                                    <li>
-                                                      <a href="/projects/details/2">
-                                                      <i class="fa fa-link"></i> Making technical education practical and accessible for rural communities
-                                                      </a>
-                                                   </li>
+                                                    <a href="{{'/projects/details/'.$project->id}}">
+                                                    <i class="fa fa-link"></i> {{$project->title}}
+                                                    </a>
+                                                 </li>
+                                                   @endforeach
                                                 </ul>
                                                 <a href="/projects/current-projects" class="btn btn-sm btn-info">Read More</a>
                                              </div>
@@ -143,12 +148,13 @@
                                           <div id="collapse2" class="panel-collapse collapse in">
                                              <div class="panel-body">
                                                 <ul>
+                                                    @foreach ($pastProjects as $project)
                                                    <li>
-                                                      <a href="/">
-                                                      <i class="fa fa-link"></i>
-                                                      Implementing the NTIS in the sector of medicinal and aromatic plants (IN-MAPs)
-                                                      </a>
-                                                   </li>
+                                                    <a href="{{'/projects/details/'.$project->id}}">
+                                                    <i class="fa fa-link"></i> {{$project->title}}
+                                                    </a>
+                                                 </li>
+                                                   @endforeach
 
                                                 </ul>
                                                 <a href="/projects/past-projects" class="btn btn-sm btn-info">Read More</a>

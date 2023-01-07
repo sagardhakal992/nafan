@@ -3,6 +3,7 @@
 use App\Http\Controllers\PostWebController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\ProjectWebController;
+use App\Http\Controllers\WebController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,9 +17,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',[WebController::class,"home"]);
 
 Route::get("/about-us", function () {
     return view("About");
