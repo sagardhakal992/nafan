@@ -38,7 +38,7 @@ class ProjectWebController extends Controller
     {
         try{
             $project = Project::find($id);
-            if($project){
+            if(!$project){
                 return redirect("/");
             }
             return view("ProjectDetail", ["project" => $project]);
