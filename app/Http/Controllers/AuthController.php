@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Helper\ResponseJson;
 use App\Http\Requests\LoginRequest;
+use App\Http\Resources\Member\MemberResource;
+use App\Models\Member;
 use Illuminate\Http\Request;
 
 class AuthController extends Controller
@@ -30,6 +32,7 @@ class AuthController extends Controller
     public function me()
     {
         $user=auth()->user();
-        return response()->json(["user"=>$user]);
+        $member = $user->member;
+        return ResponseJson::success(new MemberResource($member));
     }
 }
