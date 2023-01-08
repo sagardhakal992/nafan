@@ -4,6 +4,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\MemberController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\ReportController;
 use App\Http\Controllers\RoleController;
 use App\Models\Role;
 use Illuminate\Http\Request;
@@ -62,6 +63,9 @@ Route::group(["prefix" => "v1"], function () {
 
         Route::group(["prefix" => "posts"], function () {
             Route::post("/",[PostController::class,'store']);
+        });
+        Route::group(["prefix" => "report"], function () {
+            Route::post("/",[ReportController::class,'store']);
         });
 
     });
