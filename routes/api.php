@@ -73,5 +73,6 @@ Route::group(["prefix" => "v1"], function () {
     Route::group(["prefix"=>"public"],function(){
         Route::get("projects", [ProjectController::class, "index"]);
         Route::get("posts", [PostController::class, "index"]);
+        Route::get("reports", [ReportController::class, 'getAllReports']);
     });
 });

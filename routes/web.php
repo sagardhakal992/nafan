@@ -3,6 +3,7 @@
 use App\Http\Controllers\PostWebController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\ProjectWebController;
+use App\Http\Controllers\ReportController;
 use App\Http\Controllers\WebController;
 use Illuminate\Support\Facades\Route;
 
@@ -34,3 +35,5 @@ Route::group(["prefix" => "projects"], function () {
     Route::get("/past-projects", [ProjectWebController::class, "getPastProject"]);
     Route::get("/details/{id}", [ProjectWebController::class, "getProjectDetails"]);
  });
+
+Route::get('/reports', [ReportController::class, "index"]);

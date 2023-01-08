@@ -8,6 +8,7 @@ use App\Models\Report;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Date;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
 
 class ReportController extends Controller
 {
@@ -18,14 +19,23 @@ class ReportController extends Controller
         {
             $fileName = $reportStore->file->getClientOriginalName();
             $date = Carbon::now()->timestamp;
-            $filePath = 'uploads/' . $date . $fileName;
-
-            $path = Storage::disk('public')->put($filePath, file_get_contents($reportStore->file));
-            $path = Storage::disk('public')->url($path);
-
-            $report=Report::create(["file"=>$path,'name'=>$reportStore->name]);
+            $filePath =  str_replace(" ","",$date . $fileName);
+            $reportStore->file->move(public_path("uploads"),$filePath);
+            $url = $reportStore->root() . "/uploads/".$filePath;
+            $report=Report::create(["file"=>$url,'name'=>$reportStore->name]);
             return ResponseJson::success($report);
         }
         return ResponseJson::fail([], "No File Found");
+    }
+
+    public function index(){
+        $reports = Report::all();
+        return view("ReportList",['reports'=>$reports]);
+    }
+
+    public function getALlReports()
+    {
+        $reports = Report::all();
+        return ResponseJson::success($reports);
     }
 }
