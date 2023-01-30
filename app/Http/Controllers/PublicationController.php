@@ -29,7 +29,7 @@ class PublicationController extends Controller
                 [
                     "name"=>$data["name"],
                     "description"=>$data["description"] ?? null,
-                    "file_url"=>$publicationRequest->getHttpHost() ."/storage/".$path
+                    "file_url"=>"https://".$publicationRequest->getHttpHost() ."/storage/".$path
                 ]
             );
             return $publication;
