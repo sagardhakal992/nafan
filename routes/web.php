@@ -41,3 +41,5 @@ Route::group(["prefix" => "projects"], function () {
  });
 
 Route::get('/reports', [ReportController::class, "index"]);
+
+Route::get("/publication",[WebController::class,"publication"]);
