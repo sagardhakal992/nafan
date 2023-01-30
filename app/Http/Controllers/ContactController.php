@@ -29,4 +29,5 @@ class ContactController extends Controller
             return ResponseJson::fail([], $exception->getMessage(), 400);
         }
     }
+
 }

@@ -1,9 +1,11 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\MemberController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\PublicationController;
 use App\Http\Controllers\ReportController;
 use App\Http\Controllers\RoleController;
 use App\Models\Role;
@@ -68,11 +70,25 @@ Route::group(["prefix" => "v1"], function () {
             Route::post("/",[ReportController::class,'store']);
         });
 
+
+        Route::group(
+            ["prefix" => "contacts"],
+            function () {
+                Route::get("/", [ContactController::class,"index"]);
+         }
+        );
+
+        Route::group(["prefix" => "publication"], function () {
+            Route::post("/", [PublicationController::class, "store"]);
+        });
     });
+
+
 
     Route::group(["prefix"=>"public"],function(){
         Route::get("projects", [ProjectController::class, "index"]);
         Route::get("posts", [PostController::class, "index"]);
         Route::get("reports", [ReportController::class, 'getAllReports']);
+        Route::get("publications", [PublicationController::class, 'getAllPublications']);
     });
 });
