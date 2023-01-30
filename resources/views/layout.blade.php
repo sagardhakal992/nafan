@@ -20,7 +20,6 @@
                <meta name="description" content="">
                <meta name="viewport" content="width=device-width, initial-scale=1">
                <!-- favicon -->
-
                <!-- Normalize css -->
                <link rel="stylesheet" href="{{asset('assets/frontend/css/normalize.min.css')}}">
                <!-- bootstrap -->
