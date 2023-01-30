@@ -1,6 +1,6 @@
 @extends("layout")
 @section("content")
-               <link rel="stylesheet" href="https://ansab.org.np/assets/frontend/css/contact-main.css">
+               <link rel="stylesheet" href="{{asset('assets/frontend/css/contact-main.css')}}">
                <section class="contact-area ptb-100">
                   <div class="container">
                      <div class="row">
@@ -38,7 +38,7 @@
                      <div class="row align-items-center">
                         <div class="col-lg-4 col-md-4">
                            <div class="contact-image">
-                              <img src="https://ansab.org.np/assets/frontend/img/contact.png" alt="image">
+                              <img src="{{asset('assets/frontend/img/contact.png')}}" alt="image">
                            </div>
                         </div>
                         <div class="col-lg-8 col-md-8">

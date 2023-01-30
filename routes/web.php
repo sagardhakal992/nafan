@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\PostWebController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\ProjectWebController;
@@ -26,8 +27,11 @@ Route::get("/about-us", function () {
 Route::get("/working-area", function () {
     return view("WorkingArea");
  });
-Route::get("/contact", function () {
-    return view("contact");
+Route::group(["prefix" => "contact"], function () {
+    Route::get("/", function () {
+        return view("contact");
+    });
+    Route::post("/",[ContactController::class,"store"]);
  });
 
 Route::group(["prefix" => "projects"], function () {
