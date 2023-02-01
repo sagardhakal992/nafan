@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Helper\ResponseJson;
 use App\Helper\TryCatchHelper;
 use App\Http\Requests\Project\ProjectStoreRequest;
+use App\Http\Requests\Project\UpdateProject;
 use App\Http\Resources\Project\ProjectPaginate;
 use App\Http\Resources\Project\ProjectResource;
 use App\Models\Project;
@@ -98,6 +99,15 @@ class ProjectController extends Controller
     {
         return TryCatchHelper::tryCatchResponse(function () use ($id) {
             $project= $this->projectService->toggleProjectCompletedStatus($id);
+            return ResponseJson::success(new ProjectResource($project));
+        });
+    }
+
+    public function updateProject(UpdateProject $updateProject,int $id)
+    {
+        $data = $updateProject->validated();
+        return TryCatchHelper::tryCatchResponse(function ()use($id,$data) {
+            $project = $this->projectService->updateProject($id, $data);
             return ResponseJson::success(new ProjectResource($project));
         });
     }

@@ -46,4 +46,12 @@ interface ProjectService{
      * @return array
      */
     public function getAllProjectOfMember($id);
+
+    /**
+     * Summary of updateProject
+     * @param mixed $id
+     * @param array $data
+     * @return void
+     */
+    public function updateProject($id, array $data);
 }

@@ -108,4 +108,18 @@ class ProjectServiceImpl implements ProjectService
             return CollectionHelper::paginate($projects,15);
         });
 	}
+	/**
+	 * Summary of updateProject
+	 *
+	 * @param mixed $id
+	 * @param array $data
+	 * @return void
+	 */
+	public function updateProject($id, array $data) {
+        return TryCatchHelper::tryCatchThrow(function () use ($id, $data) {
+            $project=Project::find($id);
+            $project->update($data);
+            return $project;
+        });
+	}
 }

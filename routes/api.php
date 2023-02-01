@@ -59,6 +59,7 @@ Route::group(["prefix" => "v1"], function () {
             Route::post("/", [ProjectController::class, "store"]);
             Route::get("{id}", [ProjectController::class, "show"]);
             Route::put("{id}", [ProjectController::class, "toggleProjectStatus"]);
+            Route::put("edit/{id}", [ProjectController::class, "updateProject"]);
             Route::delete("{id}", [ProjectController::class, "destroy"]);
             Route::get("member/{id}", [ProjectController::class, "getProjectsOMember"]);
         });
