@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Helper\ResponseJson;
+use App\Helper\TryCatchHelper;
 use App\Http\Requests\Publication\PublicationRequest;
 use App\Models\Publication;
 use Exception;
@@ -52,5 +53,14 @@ class PublicationController extends Controller
         {
             return ResponseJson::fail([],$ex->getMessage());
         }
+    }
+
+    public function delete(int $id)
+    {
+        return TryCatchHelper::tryCatchResponse(function () use ($id) {
+            $publication = Publication::find($id);
+            $publication->delete();
+            return ResponseJson::success(null, "Deleted Success Fully");
+        });
     }
 }

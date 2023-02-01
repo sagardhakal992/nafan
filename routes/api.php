@@ -81,6 +81,7 @@ Route::group(["prefix" => "v1"], function () {
 
         Route::group(["prefix" => "publication"], function () {
             Route::post("/", [PublicationController::class, "store"]);
+            Route::delete("{id}", [PublicationController::class, "delete"]);
         });
     });
 
