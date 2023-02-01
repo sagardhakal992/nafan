@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Helper\ResponseJson;
+use App\Helper\TryCatchHelper;
 use App\Http\Requests\ReportReportStore;
 use App\Models\Report;
 use Carbon\Carbon;
@@ -37,5 +38,14 @@ class ReportController extends Controller
     {
         $reports = Report::all();
         return ResponseJson::success($reports);
+    }
+
+    public function delete(int $id)
+    {
+        return TryCatchHelper::tryCatchResponse(function () use ($id) {
+            $report = Report::find($id);
+            $report->delete();
+            return ResponseJson::success();
+        });
     }
 }

@@ -69,6 +69,7 @@ Route::group(["prefix" => "v1"], function () {
         });
         Route::group(["prefix" => "report"], function () {
             Route::post("/",[ReportController::class,'store']);
+            Route::post("{id}",[ReportController::class,'deletes']);
         });
 
 
