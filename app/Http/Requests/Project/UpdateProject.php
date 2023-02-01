@@ -28,9 +28,8 @@ class UpdateProject extends FormRequest
             "title"=>"required|string",
             "description"=>"required|string",
             "donor"=>"required|string",
-            "end_date"=>"required|integer",
-            "location"=>"required|string",
-            "donors"=>"required|string",
+            "end_date"=>"integer",
+            "location"=>"required|string"
         ];
     }
 }
