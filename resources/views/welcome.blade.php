@@ -54,7 +54,7 @@
 
                                  @foreach ($posts as $post)
                                  <a href={{"/news/details/".$post->id}}>
-                                    <p>Opportunity for Internship</p>
+                                    <p>{{$post->title}}</p>
                                     <small> <i class="fa fa-calendar"></i> {{\Carbon\Carbon::parse($post->created_at)->diffForHumans()}}</small>
                                  </a>
                                  @endforeach
