@@ -135,7 +135,7 @@
                                                  </li>
                                                    @endforeach
                                                 </ul>
-                                                <a href="/projects/current-projects" class="btn btn-sm btn-info">Read More</a>
+                                                <a href="/projects" class="btn btn-sm btn-info">Read More</a>
                                              </div>
                                           </div>
                                        </div>
