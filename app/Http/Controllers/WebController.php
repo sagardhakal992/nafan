@@ -27,7 +27,23 @@ class WebController extends Controller
         }
         catch(Exception $exception)
         {
-            return $exception->getMessage();
+
+            return redirect("/");
+        }
+    }
+
+    public function newsDetail(int $id)
+    {
+        try{
+            $post = Post::find($id);
+            if(!$post)
+            {
+                return redirect("/");
+            }
+            return view("NewsDetail", ["post" => $post]);
+        }
+        catch(Exception $exception)
+        {
             return redirect("/");
         }
     }
