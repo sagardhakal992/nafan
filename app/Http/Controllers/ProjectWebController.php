@@ -12,7 +12,7 @@ class ProjectWebController extends Controller
     public function getCurrentProject()
     {
         try{
-            $projects = Project::where("is_completed",true)->paginate(20);
+            $projects = Project::where("is_completed",false)->paginate(20);
             return view("ProjectList", ["projects" => $projects]);
         }
         catch(Exception $e)
@@ -24,7 +24,7 @@ class ProjectWebController extends Controller
     public function getPastProject()
     {
         try{
-            $projects = Project::where("is_completed",false)->paginate(20);
+            $projects = Project::where("is_completed",true)->paginate(20);
             return view("ProjectList", ["projects" => $projects]);
         }
         catch(Exception $e)
