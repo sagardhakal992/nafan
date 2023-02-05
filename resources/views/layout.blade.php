@@ -51,6 +51,9 @@
                   .bg-green .table>thead>tr>th {
                   color: white;
                   }
+                  h3{
+
+                  }
                </style>
             </head>
             <body>
@@ -86,6 +89,9 @@
                                     <li>
                                        <a href="/publication">Publication<span class="caret"></span></a>
                                     </li>
+                                    <li>
+                                        <a href="/gallery">Gallery<span class="caret"></span></a>
+                                     </li>
                                     <li><a href="/contact">Contact Us</a></li>
                                  </ul>
                               </div>
@@ -104,7 +110,7 @@
           <div class="col-xs-12 col-sm-3">
              <h5>Contact Us</h5>
              <div><span style="font-size:16px"><strong>Nafan</strong></span></div>
-             <div><span style="font-size:16px"><strong>Mr Bhola Bhattarai (Executive Director)</strong></span></div>
+             {{-- <div><span style="font-size:16px"><strong>Mr Bhola Bhattarai (Executive Director)</strong></span></div> --}}
              <div><span style="font-size:14px">NAFAN Secretariat</span></div>
              <div><span style="font-size:14px">Babarmall, Kathmandu, Nepal</span></div>
              <div><span style="font-size:14px">Tel: 9851074770</span></div>

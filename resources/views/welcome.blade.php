@@ -43,6 +43,8 @@
                               <h1 class="text-center"></h1>
                               <p>
                               <p>National Forum for Advocacy Nepal (NAFAN) is a non-governmental organization registered in the district administration office of Lalitpur district. It is a non-profit making organization working to uplift the socio–economic condition of marginalized communities by following rights-based approaches to development programming. Gender-friendly development, biodiversity conservation, equitable access to natural resources, and mainstreaming unprivileged groups in development are some of the priorities of NAFAN.</p>
+                              <br />
+                              <p>NAFAN was founded in June 2004 by professionals trained in human rights, law, environment, and advocacy strategies. The organization was taken as an umbrella of such professionals so that they could share experiences, and lessons and enhance advocacy knowledge and skills of not only NAFAN members but also many other like-minded organizations in Nepal. This is the reason for naming this organization as a national forum. </p>
                               </p>
                               </p>
                            </div>
@@ -168,7 +170,7 @@
                            <div class="col-xs-12 col-lg-6">
                               <div class="row">
                                  <div class="col-xs-12">
-                                    <h1>Resources</h1>
+                                    {{-- <h1>Resources</h1> --}}
                                  </div>
                                  <div class="col-xs-12 col-sm-6 col-lg-12">
                                     <div class="panel panel-resource">
@@ -188,7 +190,7 @@
                                           <h4><a href="/publications">PUBLICATIONS</a></h4>
                                        </div>
                                        <div class="panel-body">
-                                          <div style="text-align:justify">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</div>
+                                          {{-- <div style="text-align:justify">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</div> --}}
                                        </div>
                                     </div>
                                  </div>
