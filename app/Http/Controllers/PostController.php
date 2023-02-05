@@ -27,7 +27,7 @@ class PostController extends Controller
     public function index()
     {
         return TryCatchHelper::tryCatchResponse(function () {
-            $posts = $this->postService->getAllPost();
+            $posts = Post::all()->sortByDesc("created_at");
             return  ResponseJson::success(PostResource::collection($posts),"Listed Successfully");
         });
     }
