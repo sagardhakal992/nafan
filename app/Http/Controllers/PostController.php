@@ -28,7 +28,7 @@ class PostController extends Controller
     {
         return TryCatchHelper::tryCatchResponse(function () {
             $posts = $this->postService->getAllPost();
-            return  ResponseJson::success(new PostPaginate($posts),"Listed Successfully");
+            return  ResponseJson::success(PostResource::collection($posts),"Listed Successfully");
         });
     }
 

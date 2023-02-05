@@ -34,7 +34,7 @@ class PostServiceImpl implements PostService
 	 */
 	public function getAllPost() {
         return TryCatchHelper::tryCatchThrow(function () {
-            $posts = Post::paginate(1);
+            $posts = Post::all()->sortByDesc("created_at");
             return $posts;
         });
 	}
