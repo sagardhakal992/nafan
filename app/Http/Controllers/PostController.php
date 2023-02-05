@@ -28,6 +28,7 @@ class PostController extends Controller
     {
         return TryCatchHelper::tryCatchResponse(function () {
             $posts = $this->postService->getAllPost();
+            dd($posts);
             return  ResponseJson::success(PostResource::collection($posts),"Listed Successfully");
         });
     }
