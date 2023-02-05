@@ -52,7 +52,8 @@
                   color: white;
                   }
                   h3{
-
+                    font-weight:300;
+                    font-size: 20px
                   }
                </style>
             </head>
