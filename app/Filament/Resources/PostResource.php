@@ -25,6 +25,7 @@ class PostResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-collection';
 
+    protected static ?string $navigationGroup = 'Content Management';
     public static function form(Form $form): Form
     {
         return $form
@@ -45,8 +46,8 @@ class PostResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\TextColumn::make("title")->searchable(),
-                Tables\Columns\TextColumn::make("member.name"),
-                Tables\Columns\TextColumn::make("created_at")->date("d ,M ,Y")
+                Tables\Columns\TextColumn::make("member.name")->label("Created By"),
+                Tables\Columns\TextColumn::make("created_at")->date("d ,M ,Y")->label("Created Date")
             ])
             ->filters([
                 //
@@ -63,7 +64,7 @@ class PostResource extends Resource
     public static function getRelations(): array
     {
         return [
-            //
+
         ];
     }
 

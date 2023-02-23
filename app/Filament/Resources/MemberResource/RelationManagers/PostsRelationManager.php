@@ -1,10 +1,7 @@
 <?php
 
-namespace App\Filament\Resources;
+namespace App\Filament\Resources\MemberResource\RelationManagers;
 
-use App\Filament\Resources\ProjectResource\Pages;
-use App\Filament\Resources\ProjectResource\RelationManagers;
-use App\Models\Project;
 use Filament\Forms;
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\RichEditor;
@@ -12,19 +9,18 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Resources\Form;
-use Filament\Resources\Resource;
+use Filament\Resources\RelationManagers\RelationManager;
 use Filament\Resources\Table;
 use Filament\Tables;
 use Filament\Tables\Columns\IconColumn;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
-use Illuminate\Support\Facades\Auth;
 
-class ProjectResource extends Resource
+class PostsRelationManager extends RelationManager
 {
-    protected static ?string $model = Project::class;
-    protected static ?string $navigationGroup = 'Content Management';
-    protected static ?string $navigationIcon = 'heroicon-o-collection';
+    protected static string $relationship = 'projects';
+
+    protected static ?string $recordTitleAttribute = 'title';
 
     public static function form(Form $form): Form
     {
@@ -40,8 +36,7 @@ class ProjectResource extends Resource
                 Select::make("is_completed")->options([
                     "1"=>"Yes",
                     "0"=>"No"
-                ])->label("Project Complete")->default(0),
-                TextInput::make("fk_member_id")->default(Auth::user()->member->id)->disabled()
+                ])->label("Project Complete")->default(0)
             ]);
     }
 
@@ -50,34 +45,21 @@ class ProjectResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\TextColumn::make("title")->searchable(),
-                Tables\Columns\TextColumn::make("member.name"),
                 Tables\Columns\TextColumn::make("created_at")->date("d ,M ,Y"),
                 IconColumn::make("is_completed")->boolean(),
             ])
             ->filters([
                 //
             ])
+            ->headerActions([
+                Tables\Actions\CreateAction::make(),
+            ])
             ->actions([
                 Tables\Actions\EditAction::make(),
+                Tables\Actions\DeleteAction::make(),
             ])
             ->bulkActions([
                 Tables\Actions\DeleteBulkAction::make(),
             ]);
-    }
-
-    public static function getRelations(): array
-    {
-        return [
-            //
-        ];
-    }
-
-    public static function getPages(): array
-    {
-        return [
-            'index' => Pages\ListProjects::route('/'),
-            'create' => Pages\CreateProject::route('/create'),
-            'edit' => Pages\EditProject::route('/{record}/edit'),
-        ];
     }
 }

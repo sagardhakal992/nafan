@@ -14,7 +14,7 @@
                               <ul>
                                  @foreach ($reports as $report)
                                  <li>
-                                    <a href="{{$report->file}}">{{$report->name}}</a>
+                                    <a href="/storage/{{$report->file}}">{{$report->name}}</a>
                                     <p><small> {{$report->created_at->diffForHumans()}}</small></p>
                                  </li>
                                  @endforeach
