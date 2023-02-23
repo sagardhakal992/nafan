@@ -7,6 +7,7 @@ use App\Filament\Resources\GalleryCategoryResource\RelationManagers;
 use App\Filament\Resources\GalleryCategoryResource\RelationManagers\GalleryRelationManager;
 use App\Models\GalleryCategory;
 use Filament\Forms;
+use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\TextInput;
 use Filament\Resources\Form;
 use Filament\Resources\Resource;
@@ -15,6 +16,7 @@ use Filament\Tables;
 use Filament\Tables\Columns\TextColumn;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Livewire\TemporaryUploadedFile;
 
 class GalleryCategoryResource extends Resource
 {
@@ -27,7 +29,11 @@ class GalleryCategoryResource extends Resource
         return $form
             ->schema([
                 TextInput::make("name")->required(),
-                TextInput::make("description")->required()
+                TextInput::make("description")->required(),
+                FileUpload::make('thumbnail')
+                ->getUploadedFileNameForStorageUsing(function (TemporaryUploadedFile $file): string {
+                    return (string) now()->timestamp.$file->getClientOriginalName();
+                })->columnSpan("full")->acceptedFileTypes(["image/*"])
             ]);
     }
 

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\GalleryCategory;
 use App\Models\Post;
 use App\Models\Project;
 use App\Models\Publication;
@@ -43,6 +44,28 @@ class WebController extends Controller
             return view("NewsDetail", ["post" => $post]);
         }
         catch(Exception $exception)
+        {
+            return redirect("/");
+        }
+    }
+
+    public function gallery()
+    {
+        $galleries=GalleryCategory::all();
+        return view("Gallery",[
+            "galleries"=>$galleries
+        ]);
+    }
+    public function galleryDetail(int $id)
+    {
+        try{
+            $gallery=GalleryCategory::findOrFail($id);
+            $images=$gallery->gallery;
+            return view("GalleryDetail",[
+                "images"=>$images
+            ]);
+        }
+        catch(Exception $e)
         {
             return redirect("/");
         }

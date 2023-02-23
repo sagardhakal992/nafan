@@ -11,7 +11,8 @@ class GalleryCategory extends Model
     use HasFactory;
     protected $fillable=[
         "name",
-        "description"
+        "description",
+        "thumbnail"
     ];
 
     public function gallery():HasMany

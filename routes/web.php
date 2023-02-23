@@ -22,12 +22,8 @@ Route::get('/',[WebController::class,"home"]);
 Route::get("/about-us", function () {
     return view("About");
  });
- Route::get("/gallery", function () {
-    return view("Gallery");
- });
- Route::get("/gallery/{id}", function () {
-    return view("GalleryDetail");
- });
+ Route::get("/gallery",[WebController::class,"gallery"]);
+ Route::get("/gallery/{id}",[WebController::class,"galleryDetail"]);
 Route::get("/working-area", function () {
     return view("WorkingArea");
  });

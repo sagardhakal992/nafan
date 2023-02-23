@@ -2,15 +2,21 @@
 @section("content")
 <div class="container">
     <div class="row">
-      @for ($i=0;$i<15;$i++)
+      @forelse ($images as $image)
       <div class="col-md-4">
         <a href="#">
-          <img src="
-          https://ansab.org.np/uploads/main_slider/1569738894-1.%20Ecosystem-based%20Commercial%20Agriculture.JPG
+          <img src="/storage/{{$image->file_url}}
           " alt="Image 1" class="img-responsive thumbnail">
         </a>
       </div>
-      @endfor
+      @empty
+      <div class="col-md-full" style="margin:20px,auto">
+        <a href="/">
+          <h4>No Images Found Return Back To home Page</h4>
+        </a>
+      </div>
+      @endforelse
+
 
     </div>
   </div>
