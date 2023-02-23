@@ -17,7 +17,7 @@ class CreatePostsTable extends Migration
             $table->id();
             $table->timestamps();
             $table->string("title");
-            $table->string("short_description");
+            $table->longText("short_description");
             $table->longText("description");
             $table->unsignedBigInteger("fk_member_id");
             $table->boolean("is_public")->default(false);
