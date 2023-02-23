@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Filament\Models\Contracts\FilamentUser;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\HasOne;
@@ -11,7 +12,7 @@ use Illuminate\Support\Str;
 use Laravel\Sanctum\HasApiTokens;
 use Tymon\JWTAuth\Contracts\JWTSubject;
 
-class User extends Authenticatable implements JWTSubject
+class User extends Authenticatable implements JWTSubject,FilamentUser
 {
     use HasApiTokens, HasFactory, Notifiable;
 
@@ -68,4 +69,10 @@ class User extends Authenticatable implements JWTSubject
     {
         return $this->hasOne(Member::class, "fk_user_id");
     }
+	/**
+	 * @return bool
+	 */
+	public function canAccessFilament(): bool {
+        return true;
+	}
 }
