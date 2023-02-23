@@ -21,6 +21,11 @@ class Project extends Model
         "title"
     ];
 
+    protected $casts=[
+        "start_date"=>"timestamp",
+        "end_date"=>"timestamp",
+    ];
+
     public function member():BelongsTo
     {
         return $this->belongsTo(Member::class, "fk_member_id");
