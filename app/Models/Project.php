@@ -21,10 +21,10 @@ class Project extends Model
         "title"
     ];
 
-    protected $casts=[
-        "start_date"=>"timestamp",
-        "end_date"=>"timestamp",
-    ];
+    // protected $casts=[
+    //     "start_date"=>"timestamp",
+    //     "end_date"=>"timestamp",
+    // ];
 
     public function member():BelongsTo
     {

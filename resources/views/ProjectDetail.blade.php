@@ -5,8 +5,8 @@
                      <div class="row">
                         <div class="col-xs-12 col-sm-7 col-md-8 col-lg-9 text-black prod__detail">
                            <h2>{{$project->title}}</h2>
-                           <p><strong>Starting Date:</strong>{{date($project->start_date)}}<br />
-                              <strong>Ending Date:</strong>{{date($project->end_date)}}<br />
+                           <p><strong>Starting Date:</strong>{{$project->start_date}}<br />
+                              <strong>Ending Date:</strong>{{$project->end_date}}<br />
                               <strong>Location:</strong>{{$project->location}}<br />
                               <strong>Donor(s):{{$project->donor}}
                            </p>
