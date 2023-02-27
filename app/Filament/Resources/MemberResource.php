@@ -8,6 +8,7 @@ use App\Filament\Resources\MemberResource\RelationManagers\PostsRelationManager;
 use App\Models\Member;
 use App\Models\Role;
 use App\Models\User;
+use Filament\Facades\Filament;
 use Filament\Forms;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
@@ -19,6 +20,7 @@ use Filament\Tables\Columns\TextColumn;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Hash;
 
 class MemberResource extends Resource
@@ -83,4 +85,5 @@ class MemberResource extends Resource
             'edit' => Pages\EditMember::route('/{record}/edit'),
         ];
     }
+
 }
