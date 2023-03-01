@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Gallery;
 use App\Models\GalleryCategory;
 use App\Models\Post;
 use App\Models\Project;
@@ -15,7 +16,8 @@ class WebController extends Controller
         $currentProjects = Project::where('is_completed', false)->orderByDesc("created_at")->take(6)->get();
         $pastProjects = Project::where('is_completed', true)->orderByDesc("created_at")->take(6)->get();
         $posts = Post::where("is_public",1)->get()->take(6);
-        return view('welcome',["currentProjects"=>$currentProjects,"posts"=>$posts,"pastProjects"=>$pastProjects]);
+        $gallery=Gallery::all()->sortByDesc("created_at")->take(10)->toArray();
+        return view('welcome',["currentProjects"=>$currentProjects,"posts"=>$posts,"pastProjects"=>$pastProjects,"gallery"=>$gallery]);
     }
 
     public function publication()

@@ -231,6 +231,9 @@
                      </div>
                      <hr>
 
+                     <hr />
+                     <x-gallery-change :items=$gallery />
+
                   </div>
                </section>
 
