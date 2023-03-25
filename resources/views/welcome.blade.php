@@ -15,26 +15,26 @@
                                  </div>
                               </div>
                               <div class="item">
-                                 <img src="https://ansab.org.np/uploads/main_slider/1569738894-1. Ecosystem-based Commercial Agriculture.JPG" alt="2. Ecosystem-based Commercial Agriculture" class="item img-responsive">
+                                 <img src="https://nafan.org/media/1679736545784.jpeg" alt="2. Ecosystem-based Commercial Agriculture" class="item img-responsive">
                                  <div class="caption">
                                     <a href="#">
-                                       <h2>Ecosystem-based Commercial Agriculture</h2>
+                                       <h2></h2>
                                     </a>
                                  </div>
                               </div>
                               <div class="item">
-                                 <img src="https://ansab.org.np/uploads/main_slider/1569741567-non-timber-forest-product.jpg" alt="3. Non-Timber Forest Products" class="item img-responsive">
+                                 <img src="https://nafan.org/media/1679736545868.jpeg" alt="3. Non-Timber Forest Products" class="item img-responsive">
                                  <div class="caption">
                                     <a href="#">
-                                       <h2>Non-Timber Forest Product</h2>
+                                       <h2></h2>
                                     </a>
                                  </div>
                               </div>
                               <div class="item">
-                                 <img src="https://ansab.org.np/uploads/main_slider/Small and Medium Natural Resource based Enterprise-min.png" alt="4. Small and Medium Natural Resource based Enterprises" class="item img-responsive">
+                                 <img src="https://nafan.org/media/1679736823729.jpeg" alt="4. Small and Medium Natural Resource based Enterprises" class="item img-responsive">
                                  <div class="caption">
                                     <a href="#">
-                                       <h2>Small and Medium Natural Resource based Enterprises</h2>
+                                       <h2></h2>
                                     </a>
                                  </div>
                               </div>
