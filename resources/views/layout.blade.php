@@ -69,31 +69,32 @@
                                  <span class="icon-bar"></span>
                                  <span class="icon-bar"></span>
                                  </button>
-                                 <a class="navbar-brand" href="/"><img style="height: 80px" src="{{asset('assets/frontend/img/logo.jpg')}}" alt="Nafan" class="img-responsive"></a>
+                                 <a class="navbar-brand " id="logo_mobile" href="/"><img style="height: 80px" src="https://nafan.org/assets/frontend/img/logo3.jpg" alt="Nafan" class="img-responsive"></a>
+                                 <a class="navbar-brand "  id="logo_desktop" href="/"><img style="height: 80px" src="https://nafan.org/assets/frontend/img/336476284_959337635509891_8053480771035072039_n.jpg" alt="Nafan" class="img-responsive"></a>
                               </div>
                               <div class="navbar-collapse collapse">
                                  <!-- Left nav -->
                                  <ul class="nav navbar-nav">
-                                    <li><a href="/"><i class="fa fa-home"></i></a></li>
+                                    <li><a href="/"><i class="fa fa-home" style="color:#00ADEF"></i></a></li>
                                     <li>
-                                       <a href="/about-us">About Us <span class="caret"></span></a>
+                                       <a href="/about-us" style="color:#00ADEF"><p style="color:#00ADEF">About Us</p> <span class="caret"></span></a>
                                     </li>
                                     <li>
-                                       <a href="/working-area">Working Area <span class="caret"></span></a>
+                                       <a href="/working-area" style="color:#00ADEF"><p style="color:#00ADEF">Working  Area</p> <span class="caret"></span></a>
                                     </li>
                                     <li>
-                                       <a href="/projects">Projects <span class="caret"></span></a>
+                                       <a href="/projects" style="color:#00ADEF"><p style="color:#00ADEF">Projects</p> <span class="caret"></span></a>
                                     </li>
                                     <li>
-                                       <a href="/reports">Reports <span class="caret"></span></a>
+                                       <a href="/reports" style="color:#00ADEF"><p style="color:#00ADEF">Reports</p> <span class="caret"></span></a>
                                     </li>
                                     <li>
-                                       <a href="/publication">Publication<span class="caret"></span></a>
+                                       <a href="/publication" style="color:#00ADEF"><p style="color:#00ADEF">Publications </p><span class="caret"></span></a>
                                     </li>
                                     <li>
-                                        <a href="/gallery">Gallery<span class="caret"></span></a>
+                                        <a href="/gallery" style="color:#00ADEF"><p style="color:#00ADEF">Gallery Us</p><span class="caret"></span></a>
                                      </li>
-                                    <li><a href="/contact">Contact Us</a></li>
+                                    <li><a href="/contact" style="color:#00ADEF"><p style="color:#00ADEF">Contact Us</p></a></li>
                                  </ul>
                               </div>
                            </div>

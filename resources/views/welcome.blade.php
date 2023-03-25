@@ -73,7 +73,7 @@
                            <hr>
                         </div>
                         <div class="col-xs-12">
-                           <h1>About</h1>
+                           <h1 style="color:#00ADEF">About</h1>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4">
                            <a href="/about-us">
@@ -116,14 +116,14 @@
                            <div class="col-xs-12 col-lg-6">
                               <div class="row">
                                  <div class="col-xs-12">
-                                    <h1>Projects</h1>
+                                    <h1 style="color:#00ADEF">Projects</h1>
                                  </div>
                                  <div class="col-xs-12">
                                     <div class="panel-group" id="accordion">
                                        <div class="panel panel-default panel-project">
                                           <div class="panel-heading">
                                              <h4 class="panel-title">
-                                                <a  href="/projects">CURRENT PROJECTS</a>
+                                                <a  href="/projects" style="color:#00ADEF">CURRENT PROJECTS</a>
                                              </h4>
                                           </div>
                                           <div id="collapse1" class="panel-collapse collapse in">
@@ -131,20 +131,20 @@
                                                 <ul>
                                                    @foreach ($currentProjects as $project)
                                                    <li>
-                                                    <a href="{{'/projects/details/'.$project->id}}">
+                                                    <a style="color:#00ADEF" href="{{'/projects/details/'.$project->id}}">
                                                     <i class="fa fa-link"></i> {{$project->title}}
                                                     </a>
                                                  </li>
                                                    @endforeach
                                                 </ul>
-                                                <a href="/projects" class="btn btn-sm btn-info">Read More</a>
+                                                <a style="color:#00ADEF" href="/projects" class="btn btn-sm btn-info">Read More</a>
                                              </div>
                                           </div>
                                        </div>
                                        <div class="panel panel-default panel-project">
                                           <div class="panel-heading">
                                              <h4 class="panel-title">
-                                                <a  href="/projects/past-projects">PAST PROJECTS</a>
+                                                <a style="color:#00ADEF"  href="/projects/past-projects">PAST PROJECTS</a>
                                              </h4>
                                           </div>
                                           <div id="collapse2" class="panel-collapse collapse in">
@@ -159,7 +159,7 @@
                                                    @endforeach
 
                                                 </ul>
-                                                <a href="/projects/past-projects" class="btn btn-sm btn-info">Read More</a>
+                                                <a style="color:#00ADEF" href="/projects/past-projects" class="btn btn-sm btn-info">Read More</a>
                                              </div>
                                           </div>
                                        </div>
@@ -176,7 +176,7 @@
                                     <div class="panel panel-resource">
                                        <div class="panel-heading">
                                           <span class="icon-wrapper"><i class="fa fa-bar-chart"></i></span>
-                                          <h4><a href="/about-us">Rationale – why NAFAN was needed?</a></h4>
+                                          <h4><a style="color:#00ADEF" href="/about-us">Rationale – why NAFAN was needed?</a></h4>
                                        </div>
                                        <div class="panel-body">
                                           <p style="text-align:justify">After political changes in 1990, some non-governmental organizations advocated and persuaded the government to change some policies and legislations relating to forestry, women's property rights, and consumer protection issues. Some of these policy changes brought good impacts on the protection of rights of the underprivileged, marginalized communities and women. Some of the groups launched movements for ensuring access to natural resources and benefit sharing. Some organizations raised issues of gender and equity, and some others raised the issues of bounded labor and so on. All of such organizations and groups faced a tough time during the movements. Therefore, such members of civil society organizations realized that Public Advocacy in isolation did not produce the intended results. Since then the need for a national-level forum as a resource organization for public advocacy on various issues was strongly felt</p>
@@ -187,7 +187,7 @@
                                     <div class="panel panel-resource">
                                        <div class="panel-heading">
                                           <span class="icon-wrapper"><i class="fa fa-book"></i></span>
-                                          <h4><a href="/publications">PUBLICATIONS</a></h4>
+                                          <h4><a style="color:#00ADEF" href="/publications">PUBLICATIONS</a></h4>
                                        </div>
                                        <div class="panel-body">
                                           {{-- <div style="text-align:justify">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</div> --}}
@@ -202,8 +202,8 @@
                      <div class="gallery-section">
                         <div class="row">
                            <div class="col-xs-12">
-                              <h1>Our Gallery</h1>
-                              <a class="view-more" href="/gallery">View More</a>
+                              <h1 style="color:#00ADEF">Our Gallery</h1>
+                              <a style="color:#00ADEF" class="view-more" href="/gallery">View More</a>
                            </div>
                            <div class="col-xs-12">
                               <div class="messy-wrapper">

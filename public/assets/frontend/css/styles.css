@@ -1398,6 +1398,7 @@ hr {
     }
 }
 
+
 @media (min-width: 768px) and (max-width: 991px) {
     .gallery-section .item {
         width: 50%;
@@ -1455,3 +1456,48 @@ footer .btn {
     font-size: 16px;
     font-weight: 600;
 }
+
+
+
+@media (min-width:760px) {
+    #logo_mobile
+    {
+        display: none;
+        height: 80px;
+    }
+
+#logo_desktop
+    {
+        display: inline-block;
+        margin-left: -80px;
+        width: 250px;
+    }
+}
+
+
+
+@media (max-width:760px) {
+    #logo_mobile
+    {
+        display: block;
+        height: 80px;
+        width: 120px;
+    }
+
+#logo_desktop
+    {
+        display: none;
+        margin-left: 0px;
+    }
+}
+
+.panel-head-text , .panel-heading a , .view-more , h1 , li+ li a{
+  color: #00ADEF;
+}
+
+h1{
+    color:#00ADEF;
+}
+
+
+
