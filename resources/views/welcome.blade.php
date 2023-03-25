@@ -10,7 +10,7 @@
                                  <img src="https://nafan.org/media/1679736823729.jpeg" alt="1. Sustainable Forest Management" class="item img-responsive">
                                  <div class="caption">
                                     <a href="#">
-                                       <h2>Sustainable Forest Management</h2>
+                                       <h2></h2>
                                     </a>
                                  </div>
                               </div>
