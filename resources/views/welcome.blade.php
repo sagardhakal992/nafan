@@ -77,7 +77,7 @@
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4">
                            <a href="/about-us">
-                              <div class="panel panel-about text-center image-as-bg" data-bg="https://ansab.org.np/uploads/homesections/1569574087-vision.jpg">
+                              <div class="panel panel-about text-center image-as-bg" data-bg="https://nafan.org/media/ghar.jpeg">
                                  <div class="panel-body">
                                     <h3 class="mt-0 mb-0">Vision</h3>
                                     <p>NAFAN likes to achieve improved living standards for the Nepalese people, marginalized and disadvantaged groups in particular, through action-oriented activities and public advocacy based on the needs and interests of working communities. </p>
@@ -87,7 +87,7 @@
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4">
                            <a href="/about-us">
-                              <div class="panel panel-about text-center image-as-bg" data-bg="https://ansab.org.np/uploads/homesections/1569574206-mission.jpg">
+                              <div class="panel panel-about text-center image-as-bg" data-bg="https://nafan.org/media/chiuri.jpeg">
                                  <div class="panel-body">
                                     <h3 class="mt-0 mb-0">Mission</h3>
                                     <p> To support members, partners, and other like-minded organizations on pilot projects and advocacy initiatives by establishing a well-equipped resource and a trained team at NAFAN. </p>
@@ -97,7 +97,7 @@
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4">
                            <a href="/about-us">
-                              <div class="panel panel-about text-center image-as-bg" data-bg="https://ansab.org.np/uploads/homesections/1569574371-impact.jpg">
+                              <div class="panel panel-about text-center image-as-bg" data-bg="https://nafan.org/media/palnt.jpeg">
                                  <div class="panel-body">
                                     <h3 class="mt-0 mb-0">Impact</h3>
                                     <p>Promote Human Rights in socially and economically marginalized communities.
