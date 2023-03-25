@@ -7,7 +7,7 @@
                         <div class="col-xs-12 col-md-9">
                            <div id="banner" class="owl-carousel owl-theme captioned-image">
                               <div class="item">
-                                 <img src="https://nafan.org/media/1679736823729.jpeg" alt="1. Sustainable Forest Management" class="item img-responsive">
+                                 <img src="https://nafan.org/media/1679737567640.jpeg" alt="1. Sustainable Forest Management" class="item img-responsive">
                                  <div class="caption">
                                     <a href="#">
                                        <h2></h2>
