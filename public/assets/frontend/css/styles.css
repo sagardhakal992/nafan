@@ -63,7 +63,7 @@ hr {
 }
 
 .dark .panel {
-    background-color: #00a650;
+    background-color: #00ADEF;;
 }
 
 .dark h2,
@@ -82,7 +82,7 @@ hr {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #00a650;
+    background-color: #00ADEF;;
     z-index: 999999;
 }
 
@@ -154,7 +154,7 @@ hr {
 
 a,
 a:hover {
-    color: #00a54f;
+    color: #00ADEF;;
 }
 
 h1,
@@ -198,7 +198,7 @@ ul {
 
 .btn-primary {
     background-color: #fff !important;
-    color: #00a650 !important;
+    color: #00ADEF; !important;
 }
 
 .btn-secondary {
@@ -240,7 +240,7 @@ header {
 .mainNav .navbar .navbar-nav>li>a {
     font-size: 18px !important;
     font-weight: 400;
-    color: #00a650 !important;
+    color: #00ADEF; !important;
     padding-right: 0;
     padding-left: 30px;
 }
@@ -258,7 +258,7 @@ header {
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-    border-color: #00a650;
+    border-color: #00ADEF;;
 }
 
 .form-control,
@@ -340,7 +340,7 @@ footer .form-group .form-control {
 .subscribe-section form .btn {
     margin: 0;
     width: 100%;
-    background: linear-gradient(to left, #00a650, #00adef) !important;
+    background: linear-gradient(to left, #00ADEF;, #00adef) !important;
     color: white !important;
 }
 
@@ -415,7 +415,7 @@ footer hr {
 }
 
 .feedback .btn {
-    background-color: #00a650 !important;
+    background-color: #00ADEF; !important;
     color: #fff !important;
 }
 
@@ -435,7 +435,7 @@ table {
 
 .page .table>thead>tr>th {
     border-bottom: 2px solid white;
-    color: #00a54f;
+    color: #00ADEF;;
     padding: 0 8px;
     font-size: 16px;
 }
@@ -624,7 +624,7 @@ table {
         display: block;
     }
     .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
-        color: #00a650;
+        color: #00ADEF;;
         font-size: 10px;
         font-weight: 500;
         text-transform: uppercase;
@@ -671,11 +671,11 @@ header {
 }
 
 .panel-head-text {
-    color: #00a54f;
+    color: #00ADEF;;
 }
 
 .bg-green {
-    background: #00a650;
+    background: #00ADEF;;
     color: white;
 }
 
@@ -707,7 +707,7 @@ header {
 }
 
 section h1 {
-    color: #00a650;
+    color: #00ADEF;;
 }
 
 hr {
@@ -953,7 +953,7 @@ hr {
 }
 
 .page h2 {
-    color: #00a650;
+    color: #00ADEF;;
 }
 
 .captioned-image .item {
@@ -1018,7 +1018,7 @@ hr {
 
 .navbar-form .input-group {
     border-radius: 20px;
-    background: #00a650;
+    background: #00ADEF;;
 }
 
 .navbar-form .input-group-btn {
@@ -1026,7 +1026,7 @@ hr {
     text-align: center;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    background: #00a650;
+    background: #00ADEF;;
     border-radius: 20px;
 }
 
@@ -1041,7 +1041,7 @@ hr {
 }
 
 .panel-team .btn {
-    background: linear-gradient(to left, #00adef, #00a650);
+    background: linear-gradient(to left, #00adef, #00ADEF;);
     color: white !important;
 }
 
@@ -1138,7 +1138,7 @@ hr {
 .nav-tabs>li.active>a:focus,
 .nav-tabs>li.active>a:hover {
     background-color: transparent !important;
-    color: #00a650 !important;
+    color: #00ADEF; !important;
 }
 
 .tab-content .tab-pane a {
@@ -1151,7 +1151,7 @@ hr {
 }
 
 .header-top {
-    background: #00a650;
+    background: #00ADEF;;
     color: white;
     text-align: center;
 }
@@ -1303,7 +1303,7 @@ hr {
     top: 50%;
     transform: translate(0%, -50%);
     right: 15px;
-    color: #00a650;
+    color: #00ADEF;;
     font-size: 16px;
 }
 
@@ -1438,8 +1438,8 @@ footer .btn {
     z-index: 3;
     color: #fff;
     cursor: default;
-    background-color: #00a650;
-    border-color: #00a650;
+    background-color: #00ADEF;;
+    border-color: #00ADEF;;
 }
 
 .video-title {
