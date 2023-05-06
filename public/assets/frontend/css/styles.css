@@ -1495,8 +1495,25 @@ footer .btn {
   color: #00ADEF;
 }
 
-h1{
+
+h1,h2,h3{
     color:#00ADEF;
+}
+li{
+    margin-top: 5px;
+    font-size:120%;
+
+}
+
+b{
+    font-weight: 500;
+    color: black;
+}
+ol{
+    padding: 10px;
+}
+ul{
+    padding-left:25px;
 }
 
 
