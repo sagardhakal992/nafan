@@ -92,7 +92,7 @@
                                        <a href="/publication" style="color:#00ADEF"><p style="color:#00ADEF">Publications </p><span class="caret"></span></a>
                                     </li>
                                     <li>
-                                        <a href="/gallery" style="color:#00ADEF"><p style="color:#00ADEF">Gallery Us</p><span class="caret"></span></a>
+                                        <a href="/gallery" style="color:#00ADEF"><p style="color:#00ADEF">Gallery</p><span class="caret"></span></a>
                                      </li>
                                     <li><a href="/contact" style="color:#00ADEF"><p style="color:#00ADEF">Contact Us</p></a></li>
                                  </ul>
