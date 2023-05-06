@@ -54,7 +54,7 @@
         </ul>
     </div>
     <div>
-        <h3>5. VALUES</h3>
+        <h3>5. MAJOR ACHIEVEMENTS of NAFAN</h3>
         <ul style="margin-left:25px;list-style:square">
                 <li style="margin-top: 5px;font-size:120%">Policy contribution on land, water, forest and climate change</li>
                 <li style="margin-top: 5px;font-size:120%">Huge publication on natural resource management</li>
@@ -66,7 +66,7 @@
     </div>
 
     <div>
-        <h3>6. MAJOR ACHIEVEMENTS of NAFAN</h3>
+        <h3>6. Values </h3>
         <ul style="margin-left:25px;list-style:square"">
             <li style="margin-top: 5px;font-size:120%">Mutual respect and solidarity</li>
             <li style="margin-top: 5px;font-size:120%">Participation and active involvement</li>
@@ -79,6 +79,76 @@
             <li style="margin-top: 5px;font-size:120%">Biasness</li>
             <li style="margin-top: 5px;font-size:120%">Local resource mobilization</li>
         </ul>
+    </div>
+    <div>
+        <h3>7. STRATEGIC ISSUES for 2022 to 2027</h3>
+        <ol>
+            <li>
+                Programmatic issues: on the basis of theme:
+            </li>
+            <img src="{{asset('assets/frontend/img/Capture.JPG')}}" style="height:350px;width:100%" />
+            <li>Organizational Development Issues</li>
+            <ul style="list-style: circle">
+                <li>Organizational Management and Development</li>
+                <li>Resource Mobilization and Financial Sustainability</li>
+                <li>Policy Research and Advocacy</li>
+                <li>Program Collaboration and Issue Based Networking</li>
+            </ul>
+        </ol>
+    </div>
+    <div>
+        <h3>8. SWOT analysis</h3>
+        <ol>
+            <li>STRENGTHS OF NAFAN</li>
+                <ul style="list-style: circle">
+                <li>Focused on specific objectives</li>
+                <li>Based on natural resource management</li>
+                <li>Owned by local people</li>
+                <li>Policy advocacy organization</li>
+                <li>Competencies on capacity building</li>
+                <li>Focused on indigenous knowledge</li>
+                <li>Know rhetoric and reality/ professional</li>
+                <li>Program focused on target group</li>
+                <li>Strong history</li>
+                <li>Good reputation an trusted by donor</li>
+                <li>Multiple publication</li>
+                <li>Efficient and effective resource mobilization capacity</li>
+                <li>Led by expert</li>
+                <li>Technology friendly office environment</li>
+                </ul>
+
+                <li>CHALLENGES FOR NAFAN</li>
+                <ul style="list-style: circle">
+                <li>Limited capacity of board members</li>
+                <li>Limited working areas</li>
+                <li>Less diversified member</li>
+                <li>Less networking and coordination with stakeholder</li>
+                <li>No internal fund</li>
+                <li>Lack of full time staff</li>
+                <li>Lack of common understanding</li>
+                <li>Lack of proper documentation skill</li>
+                <li>Limited operational policies and guideline</li>
+                </ul>
+
+                <li>PERCEIVED OPPORTUNITIES FOR NAFAN</li>
+                <ul style="list-style: circle">
+                <li>An opportunity to work with 761 governments</li>
+                <li>Able to contribute to achieve the Sustainable Development Goal (SDGs)</li>
+                <li>Huge issues of PVSE</li>
+                <li>High opportunity to travel around the world</li>
+                <li>Space for policy advocacy with central and provincial government</li>
+                <li>High opportunity to create employment opportunities</li>
+                </ul>
+
+                <li>PERCEIVED THREATS FOR NAFAN</li>
+                <ul style="list-style: circle">
+                <li>Complicated tax system</li>
+                <li>Political instability in the country</li>
+                <li>Political tag and politization of issues</li>
+                <li>High expectation from communities and stakeholder</li>
+                <li>Safety issues of staff</li>
+                </ul>
+        </ol>
     </div>
 </div>
 @endsection
