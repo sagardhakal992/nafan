@@ -1518,5 +1518,15 @@ ul{
 
 
 
+#logo_mobile{
+    height: 80px;
+    width: 200px;
+}
+#logo_mobile img{
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+}
+
 
 
