@@ -6,6 +6,14 @@
                      <div class="row">
                         <div class="col-xs-12 col-md-9">
                            <div id="banner" class="owl-carousel owl-theme captioned-image">
+                            <div class="item">
+                                <img src="{{asset('assets/h1.jpeg')}}" alt="2. Ecosystem-based Commercial Agriculture" class="item img-responsive">
+                                <div class="caption">
+                                   <a href="#">
+                                      <h2></h2>
+                                   </a>
+                                </div>
+                             </div>
                               <div class="item">
                                  <img src="https://nafan.org/media/1679737567656.jpeg" alt="1. Sustainable Forest Management" class="item img-responsive">
                                  <div class="caption">
@@ -14,8 +22,9 @@
                                     </a>
                                  </div>
                               </div>
+
                               <div class="item">
-                                 <img src="https://nafan.org/media/1679736545784.jpeg" alt="2. Ecosystem-based Commercial Agriculture" class="item img-responsive">
+                                 <img src="{{asset('assets/h2-main.jpeg')}}" alt="3. Non-Timber Forest Products" class="item img-responsive">
                                  <div class="caption">
                                     <a href="#">
                                        <h2></h2>
@@ -23,15 +32,7 @@
                                  </div>
                               </div>
                               <div class="item">
-                                 <img src="https://nafan.org/media/1679736545868.jpeg" alt="3. Non-Timber Forest Products" class="item img-responsive">
-                                 <div class="caption">
-                                    <a href="#">
-                                       <h2></h2>
-                                    </a>
-                                 </div>
-                              </div>
-                              <div class="item">
-                                 <img src="https://nafan.org/media/1679736823729.jpeg" alt="4. Small and Medium Natural Resource based Enterprises" class="item img-responsive">
+                                 <img src="{{asset('assets/h3.jpeg')}}" alt="4. Small and Medium Natural Resource based Enterprises" class="item img-responsive">
                                  <div class="caption">
                                     <a href="#">
                                        <h2></h2>
