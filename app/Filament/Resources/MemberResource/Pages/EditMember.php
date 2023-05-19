@@ -7,6 +7,7 @@ use App\Models\Member;
 use Filament\Pages\Actions;
 use Filament\Resources\Pages\EditRecord;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Hash;
 
 class EditMember extends EditRecord
 {
@@ -14,12 +15,14 @@ class EditMember extends EditRecord
 
     protected function handleRecordUpdate(Model $record, array $data): Model
     {
+        $user = $record->user()->update(['password' => Hash::make($data['password'])]);
         $newData = [
             "name" => $data["name"],
             "email" => $data["email"],
             "age" => $data["age"] ?? null,
             "phone_number" => $data["phone_number"],
-            'fk_user_id' => $record->fk_user_id
+            'fk_user_id' => $record->fk_user_id,
+            "fk_role_id"=>$data['fk_role_id']
         ];
         $record->update($newData);
         return $record;

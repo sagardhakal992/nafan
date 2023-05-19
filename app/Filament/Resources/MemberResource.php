@@ -37,7 +37,7 @@ class MemberResource extends Resource
                 TextInput::make('name')->required()->string(),
                 TextInput::make("email")->email()->required(),
                 TextInput::make('password')->required()->password(),
-                Select::make('password')->required()->options(function(){
+                Select::make('fk_role_id')->label('Role')->required()->options(function(){
                     $roles=collect(Role::all())->groupBy("id")->map(function($item){
                         return $item[0]->name;
                     })->toArray();

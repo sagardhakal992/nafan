@@ -25,7 +25,8 @@ class CreateMember extends CreateRecord
             "email"=>$data["email"],
             "age"=>$data["age"]??null,
             "phone_number"=>$data["phone_number"],
-            'fk_user_id'=>$user->id
+            'fk_user_id'=>$user->id,
+            "fk_role_id"=>$data['fk_role_id']
         ];
         return static::getModel()::create($newData);
     }
