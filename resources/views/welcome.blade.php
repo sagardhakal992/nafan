@@ -207,9 +207,9 @@
                            </div>
                            <div class="col-xs-12">
                               <div class="messy-wrapper">
-                                 <div class="item" data-fancybox="gallery" data-caption="1569741851-gallery-3.jpg">
+                                 {{-- <div class="item" data-fancybox="gallery" data-caption="1569741851-gallery-3.jpg">
                                     <div class="image-as-bg" data-bg="{{asset('assets/gallery/bhola1.jpg')}}"></div>
-                                 </div>
+                                 </div> --}}
                                  <div class="item" data-fancybox="gallery" data-caption="1569741805-gallery-1.jpg">
                                     <div class="image-as-bg" data-bg="{{asset('assets/gallery/banner.jpg')}}"></div>
                                  </div>
