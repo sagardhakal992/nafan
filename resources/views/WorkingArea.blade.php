@@ -5,7 +5,7 @@
     <div>
         <h3>1. Thematic Priorities and Defined Activities for 2022-2027  </h3>
         <ul style="margin-left:15px;list-style:square"">
-            <li style="margin-top: 5px;font-size:120%">	Natural Resource Management
+            <li style="margin-top: 5px;font-size:145%;font-weight:500">	Natural Resource Management
             {{-- <p>Possibe donors: WWF, GEF, Practical Action, Sallow Foundation, </p> --}}
             </li>
             <ol>
@@ -14,7 +14,7 @@
                 <li>Marketing</li>
                 <li>Value Chain Analysis</li>
             </ol>
-            <li>
+            <li style="margin-top: 5px;font-size:145%;font-weight:500">
                 Resilience Livelihood
                {{-- <p> Possible Donors:   <b>Sallows of Finland, DCA, UNDP </b></p> --}}
             </li>
@@ -27,13 +27,8 @@
             {{-- <li>Human Right and Good Governance and Accountability:<p>
             Possible Donors:   <b>Human Right commission, UN agencies, Asia foundation, US Embassies, EU</b>
             </p></li> --}}
-            <ol>
-                <li>Interaction and Discussion</li>
-                <li>Public Hearing and Social Audit</li>
-                <li>Promote Human Rights and respect others dignity</li>
-                <li>Training and research</li>
-            </ol>
-            <li> DRR CCA
+
+            <li style="margin-top: 5px;font-size:145%;font-weight:500"> DRR CCA
             {{-- <p> Possible Donors: TAYAR, Ministry of Home, Various Organization </p> --}}
             </li>
             <ol>
@@ -42,7 +37,7 @@
                 <li>Promote Human Rights and respect others dignity</li>
                 <li>Training and research</li>
             </ol>
-            <li>Policy Research and Advocacy
+            <li style="margin-top: 5px;font-size:145%;font-weight:500">Policy Research and Advocacy
                 {{-- <p> Possible Donors: US embassies, EU, Koica, World Bank, </p> --}}
             </li>
             <ol>
@@ -55,8 +50,8 @@
 
     <div>
         <h3>2. Institution Development  </h3>
-        <ul style="margin-left:15px;list-style:square"">
-            <li style="margin-top: 5px;font-size:120%">Enhancing organizational capacity</li>
+        <ul style="margin-left:15px;list-style:square">
+            <li style="margin-top: 5px;font-size:145%;font-weight:500">Enhancing organizational capacity</li>
             <ol>
                 <li>Expand membership in each year</li>
                 <li>develop Human Resource Development Unite</li>

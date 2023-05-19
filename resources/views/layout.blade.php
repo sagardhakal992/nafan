@@ -114,9 +114,11 @@
              <h5>Contact Us</h5>
              {{-- <div><span style="font-size:16px"><strong>Nafan</strong></span></div> --}}
              {{-- <div><span style="font-size:16px"><strong>Mr Bhola Bhattarai (Executive Director)</strong></span></div> --}}
-             <div><span style="font-size:14px">National Forum For Advocacy Nepal(NAFAN) Secretariat</span></div>
-             <div><span style="font-size:14px">Jwagal UN Park,Lalitpur Nepal</span></div>
-             <div><span style="font-size:14px">Tel: 9841325488,9851074770, 9841444966</span></div>
+             <div><span style="font-size:14px">
+                {{-- National Forum For Advocacy Nepal(NAFAN)  --}}
+               NAFAN Secretariat</span></div>
+             <div><span style="font-size:14px">Lalitpur-10,Kupandole,UN-Park</span></div>
+             <div><span style="font-size:14px">Tel: 9841325488,9851074770</span></div>
              <div><span style="font-size:14px">Email: nafannepal8@gmail.com</span></div>
              <div>&nbsp;</div>
              <ul class="list-inline">
@@ -165,10 +167,10 @@
           <hr>
           <div class="row">
              <div class="col-xs-12 col-sm-8">
-                <p>Copyright © {{ now()->year }} <a href="index.php">NAFAN - National Forum For Advocacy Nepal</a>. All Right Reserved.</p>
+                <p>Copyright © {{ now()->year }} <a href="/">NAFAN - National Forum For Advocacy Nepal</a>. All Right Reserved.</p>
              </div>
              <div class="col-xs-12 col-sm-4 text-right">
-                <a href="#">Sagar Dhakal</a>
+
              </div>
           </div>
        </div>

@@ -14,14 +14,16 @@
                         <div class="col-lg-4 col-md-6 col-sm-6">
                            <div class="contact-info-box">
                               <h3>Location</h3>
-                              <p><a href="" target="_blank">BabarMall,Kathmandu</a>
+                              <p><a href="" target="_blank">Lalitpur-10,Kupandole,UN-Park</a>
                               </p>
                            </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
                            <div class="contact-info-box">
                               <h3>Call</h3>
-                              <p><a href="Tel:9851074770 ">Tel: 9851074770 </a></p>
+                              <p><a href="Tel:9841325488 ">Tel: 9841325488 </a></p>
+                              <p><a href="Tel:9851074770 ">Tel:9851074770 </a></p>
+                              <p><a href="Tel:9841444966 ">Tel:9841444966 </a></p>
                            </div>
                         </div>
                      </div>

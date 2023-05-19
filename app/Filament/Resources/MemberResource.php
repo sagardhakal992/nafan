@@ -35,7 +35,7 @@ class MemberResource extends Resource
         return $form
             ->schema([
                 TextInput::make('name')->required()->string(),
-                TextInput::make("email")->email()->required()->unique(),
+                TextInput::make("email")->email()->required(),
                 TextInput::make('password')->required()->password(),
                 Select::make('password')->required()->options(function(){
                     $roles=collect(Role::all())->groupBy("id")->map(function($item){
