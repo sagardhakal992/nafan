@@ -49,30 +49,46 @@
                                     <div class="col-lg-6 col-md-12">
                                        <div class="form-group">
                                           <input type="text" name="name" id="name" class="form-control" required="" data-error="Please enter your name" placeholder="Name">
-                                          <div class="help-block with-errors"></div>
+
+                                          <div class="help-block with-errors">
+                                            @error('name')
+                                          {{$message}}
+                                          @enderror
+                                          </div>
                                        </div>
                                     </div>
                                     <div class="col-lg-6 col-md-12">
                                        <div class="form-group">
                                           <input type="email" name="email" id="email" class="form-control" required="" data-error="Please enter your email" placeholder="Email">
-                                          <div class="help-block with-errors"></div>
+                                          <div class="help-block with-errors">
+                                            @error('email')
+                                          {{$message}}
+                                          @enderror
+                                          </div>
                                        </div>
                                     </div>
                                     <div class="col-lg-6 col-md-12">
                                        <div class="form-group">
-                                          <input type="text" name="phone_number" id="phone_number" required="" data-error="Please enter your number" class="form-control" placeholder="Phone">
-                                          <div class="help-block with-errors"></div>
+                                          <input type="text" name="phone" id="phone_number" required="" data-error="Please enter your number" class="form-control" placeholder="Phone">
+                                          <div class="help-block with-errors">
+                                            @error('phone')
+                                          {{$message}}
+                                          @enderror
+                                          </div>
                                        </div>
                                     </div>
                                     <div class="col-lg-6 col-md-12">
                                        <div class="form-group">
                                           <input type="text" name="subject" id="msg_subject" class="form-control" required="" data-error="Please enter your subject" placeholder="Subject">
                                           <div class="help-block with-errors"></div>
+                                          @error('subject')
+                                          {{$message}}
+                                          @enderror
                                        </div>
                                     </div>
                                     <div class="col-lg-12 col-md-12">
                                        <div class="form-group">
-                                          <textarea name="message" class="form-control" id="message" cols="30" rows="5" required="" data-error="Write your message" placeholder="Your Message"></textarea>
+                                          <textarea name="description" class="form-control" id="message" cols="30" rows="5" required="" data-error="Write your message" placeholder="Your Message"></textarea>
                                           <div class="help-block with-errors"></div>
                                        </div>
                                     </div>
