@@ -14,9 +14,9 @@
                               <ul>
                                  @foreach ($publications as $publication)
                                  <li>
-                                    <a href="/storage/{{$publication->file_url}}" onclick="return preventDownload(event)">{{$publication->name}}</a>
-                                    <p><small> {{$publication->created_at->diffForHumans()}}</small></p>
-                                 </li>
+                                    <a target="_blank" href="/storage/{{$publication->file_url}}">{{$publication->name}}</a>
+                                    <p><small>{{$publication->created_at->diffForHumans()}}</small></p>
+                                </li>
                                  @endforeach
 
                               </ul>

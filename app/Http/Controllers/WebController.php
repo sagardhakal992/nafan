@@ -16,8 +16,10 @@ class WebController extends Controller
         $currentProjects = Project::where('is_completed', false)->orderByDesc("created_at")->take(6)->get();
         $pastProjects = Project::where('is_completed', true)->orderByDesc("created_at")->take(6)->get();
         $posts = Post::where("is_public",1)->get()->take(6);
+        $publications = Publication::get()->take(6);
+
         $gallery=Gallery::all()->sortByDesc("created_at")->take(10)->toArray();
-        return view('welcome',["currentProjects"=>$currentProjects,"posts"=>$posts,"pastProjects"=>$pastProjects,"gallery"=>$gallery]);
+        return view('welcome',["currentProjects"=>$currentProjects,"posts"=>$posts,"pastProjects"=>$pastProjects,"gallery"=>$gallery,"publications"=>$publications]);
     }
 
     public function publication()
