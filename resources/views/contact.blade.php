@@ -28,7 +28,10 @@
                      </br>
                      </br>
                      <section class="contact-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.8587316510825!2d85.32364982420196!3d27.690760780993255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19ba872f6daf%3A0x1c6b879fb83c0fa1!2sDepartment%20of%20Forests!5e0!3m2!1sen!2snp!4v1671434980624!5m2!1sen!2snp" width="1100" height="700" style="border:2px solid green;" allowfullscreen="true" loading="lazy"  referrerpolicy="no-referrer-when-downgrade" style="border: -radius:4px"></iframe>
+                        {{-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d883.2613617963116!2d85.3239030695906!3d27.684990198512203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19b832bcb967%3A0x7f3c96b92c33eda2!2sDhantil%20Barahi%20Marg%2C%20Lalitpur%2044600!5e0!3m2!1sen!2snp!4v1684486885371!5m2!1sen!2snp"
+                         width="1100" height="700" style="border:2px solid green;" allowfullscreen="true" loading="lazy"  referrerpolicy="no-referrer-when-downgrade" style="border: -radius:4px"></iframe> --}}
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d883.2613617963116!2d85.3239030695906!3d27.684990198512203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19f1b787c78f%3A0x4b9655e17b052c7e!2sBMS%20Nepal!5e0!3m2!1sen!2snp!4v1684486998792!5m2!1sen!2snp"
+                        width="1100" height="700" style="border:2px solid green;" allowfullscreen="true" loading="lazy"  referrerpolicy="no-referrer-when-downgrade" style="border: -radius:4px"></iframe>
                      </section>
                      <div class="section-title">
                         <span class="sub-title">Contact Us</span>
