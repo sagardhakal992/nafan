@@ -97,7 +97,7 @@
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4">
                            <a href="/about-us">
-                              <div class="panel panel-about text-center image-as-bg" data-bg="https://nafan.org/media/impact.jpeg">
+                              <div class="panel panel-about text-center image-as-bg" data-bg="https://nafan.org/media/impact.jpg">
                                  <div class="panel-body">
                                     <h3 class="mt-0 mb-0">Impact</h3>
                                     <p>Promote Human Rights in socially and economically marginalized communities.
