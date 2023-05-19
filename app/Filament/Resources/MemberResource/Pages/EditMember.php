@@ -19,7 +19,7 @@ class EditMember extends EditRecord
             "email" => $data["email"],
             "age" => $data["age"] ?? null,
             "phone_number" => $data["phone_number"],
-            'fk_user_id' => $data['id']
+            'fk_user_id' => $record->fk_user_id
         ];
         $record->update($newData);
         return $record;
