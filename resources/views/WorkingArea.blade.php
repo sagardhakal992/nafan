@@ -6,7 +6,7 @@
         <h3>1. Thematic Priorities and Defined Activities for 2022-2027  </h3>
         <ul style="margin-left:15px;list-style:square"">
             <li style="margin-top: 5px;font-size:120%">	Natural Resource Management
-            <p>Possibe donors: WWF, GEF, Practical Action, Sallow Foundation, </p>
+            {{-- <p>Possibe donors: WWF, GEF, Practical Action, Sallow Foundation, </p> --}}
             </li>
             <ol>
                 <li>Provide Entrepreneurship Development Training</li>
@@ -16,7 +16,7 @@
             </ol>
             <li>
                 Resilience Livelihood
-               <p> Possible Donors:   <b>Sallow Foundation, DCA, UNDP </b></p>
+               {{-- <p> Possible Donors:   <b>Sallows of Finland, DCA, UNDP </b></p> --}}
             </li>
             <ol>
               <li>Provide Entrepreneurship Development Training</li>
@@ -24,9 +24,9 @@
               <li>Marketing</li>
               <li>Value Chain Analysis</li>
             </ol>
-            <li>Human Right and Good Governance and Accountability:<p>
+            {{-- <li>Human Right and Good Governance and Accountability:<p>
             Possible Donors:   <b>Human Right commission, UN agencies, Asia foundation, US Embassies, EU</b>
-            </p></li>
+            </p></li> --}}
             <ol>
                 <li>Interaction and Discussion</li>
                 <li>Public Hearing and Social Audit</li>
@@ -34,7 +34,7 @@
                 <li>Training and research</li>
             </ol>
             <li> DRR CCA
-            <p> Possible Donors: TAYAR, Ministry of Home, Various Organization </p>
+            {{-- <p> Possible Donors: TAYAR, Ministry of Home, Various Organization </p> --}}
             </li>
             <ol>
                 <li>Interaction and Discussion</li>
@@ -43,7 +43,7 @@
                 <li>Training and research</li>
             </ol>
             <li>Policy Research and Advocacy
-                <p> Possible Donors: US embassies, EU, Koica, World Bank, </p>
+                {{-- <p> Possible Donors: US embassies, EU, Koica, World Bank, </p> --}}
             </li>
             <ol>
                 <li>Policy research on NRM, Human rights, Law on forest, land and water</li>
@@ -98,12 +98,12 @@
             </ol>
         </ul>
     </div>
-    <div>
+    {{-- <div>
         <h3>3. 5 Years Of Visioning</h3>
         <img src="{{asset('assets/frontend/img/5years.jpg')}}" style="height:100%;width:100%" />
-    </div>
+    </div> --}}
     <div style="padding:5px">
-        <h3>4. Thematic area of NAFAN </h3>
+        <h3>3. Thematic area of NAFAN </h3>
         <h3>Network organization</h3>
         <p style="font-size: 120%">NAFAN is an umbrella of organizations working on rights-based approaches and advocacy. Therefore, NAFAN has been sup0porting to any of the organizations based on their needs throughout Nepal.</p>
         <h3>Field level project</h3>
@@ -112,7 +112,7 @@
     </div>
 
     <div>
-        <h3>5. Funding partners of NAFAN </h3>
+        <h3>4. Funding partners of NAFAN </h3>
         <p style="font-size: 120%">ICIMOD was a founding partner of NAFAN. Later on, NAFAN worked with Word Wildlife Federation (WWF), ICCO, CECI, Federation of Community Forest Users in Nepal (FECOFUN), ACOFUN, DANAR. MSFP, GFC. BWI and the Government of Nepal with various Ministries. </p>
 
     </div>

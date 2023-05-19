@@ -31,7 +31,7 @@
         {{-- <p style="font-size: 120%">To support members, partners, and other like-minded organizations on pilot projects and advocacy initiatives by establishing a well-equipped resource and a trained team at NAFAN.</p> --}}
         <p style="font-size: 120%">Influence, encourage and shape the plan, policies and decisions in political, social, economic and environmental dimension</p>
         <h3>Objective</h3>
-        <ul style="margin-left:15px;list-style:square"">
+        <ul style="margin-left:15px;list-style:square">
             <li style="margin-top: 5px;font-size:120%">	Protection, promotion, and realization of human rights of socially and economically marginalized people and community</li>
             <li style="margin-top: 5px;font-size:120%">	Protection, promotion and realization of the cultural and economic right of different class and community</li>
             <li style="margin-top: 5px;font-size:120%">	Access of marginalized class to environment, natural resources and biodiversity</li>
@@ -41,7 +41,7 @@
             <li style="margin-top: 5px;font-size:120%">	Act as a resource center</li>
         </ul>
     </div>
-    <div>
+{{-- <div>
         <h3>Organogram</h3>
         <img src="{{asset('assets/frontend/img/organogram.jpg')}}" style="height:100%;width:100%"/>
     </div>
@@ -52,8 +52,8 @@
             <li style="margin-top: 5px;font-size:120%">	Synergies created through collective efforts of members in the environment and gender justice.</li>
             <li style="margin-top: 5px;font-size:120%">	Build up mutual trust and solidarity among members.</li>
         </ul>
-    </div>
-    <div>
+    </div> --}}
+    {{-- <div>
         <h3>5. MAJOR ACHIEVEMENTS of NAFAN</h3>
         <ul style="margin-left:25px;list-style:square">
                 <li style="margin-top: 5px;font-size:120%">Policy contribution on land, water, forest and climate change</li>
@@ -63,10 +63,10 @@
                 <li style="margin-top: 5px;font-size:120%">Currently managing 15 staffs and secured fund for next 3  years</li>
 
         </ul>
-    </div>
+    </div> --}}
 
     <div>
-        <h3>6. Values </h3>
+        <h3>4. Values </h3>
         <ul style="margin-left:25px;list-style:square"">
             <li style="margin-top: 5px;font-size:120%">Mutual respect and solidarity</li>
             <li style="margin-top: 5px;font-size:120%">Participation and active involvement</li>
@@ -80,7 +80,7 @@
             <li style="margin-top: 5px;font-size:120%">Local resource mobilization</li>
         </ul>
     </div>
-    <div>
+    {{-- <div>
         <h3>7. STRATEGIC ISSUES for 2022 to 2027</h3>
         <ol>
             <li>
@@ -95,8 +95,8 @@
                 <li>Program Collaboration and Issue Based Networking</li>
             </ul>
         </ol>
-    </div>
-    <div>
+    </div> --}}
+    {{-- <div>
         <h3>8. SWOT analysis</h3>
         <ol>
             <li>STRENGTHS OF NAFAN</li>
@@ -149,6 +149,6 @@
                 <li>Safety issues of staff</li>
                 </ul>
         </ol>
-    </div>
+    </div> --}}
 </div>
 @endsection

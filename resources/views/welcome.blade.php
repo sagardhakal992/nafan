@@ -80,7 +80,7 @@
                               <div class="panel panel-about text-center image-as-bg" data-bg="https://nafan.org/media/ghar.jpeg">
                                  <div class="panel-body">
                                     <h3 class="mt-0 mb-0">Vision</h3>
-                                    <p>NAFAN likes to achieve improved living standards for the Nepalese people, marginalized and disadvantaged groups in particular, through action-oriented activities and public advocacy based on the needs and interests of working communities. </p>
+                                    <p>Peace and prosperity of the nation and environmental conservation. </p>
                                  </div>
                               </div>
                            </a>
@@ -90,7 +90,7 @@
                               <div class="panel panel-about text-center image-as-bg" data-bg="https://nafan.org/media/chiuri.jpeg">
                                  <div class="panel-body">
                                     <h3 class="mt-0 mb-0">Mission</h3>
-                                    <p> To support members, partners, and other like-minded organizations on pilot projects and advocacy initiatives by establishing a well-equipped resource and a trained team at NAFAN. </p>
+                                    <p> Influence, encourage and shape the plan, policies and decisions in political, social, economic and environmental dimension </p>
                                  </div>
                               </div>
                            </a>

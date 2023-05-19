@@ -112,37 +112,36 @@
        <div class="row">
           <div class="col-xs-12 col-sm-3">
              <h5>Contact Us</h5>
-             <div><span style="font-size:16px"><strong>Nafan</strong></span></div>
+             {{-- <div><span style="font-size:16px"><strong>Nafan</strong></span></div> --}}
              {{-- <div><span style="font-size:16px"><strong>Mr Bhola Bhattarai (Executive Director)</strong></span></div> --}}
              <div><span style="font-size:14px">NAFAN Secretariat</span></div>
-             <div><span style="font-size:14px">Babarmall, Kathmandu, Nepal</span></div>
-             <div><span style="font-size:14px">Tel: 9851074770</span></div>
+             <div><span style="font-size:14px">Jwagal UN Park,Lalitpur Nepal</span></div>
+             <div><span style="font-size:14px">Tel: 9841325488,9851074770, 9841444966</span></div>
              <div><span style="font-size:14px">Email: nafannepal8@gmail.com</span></div>
              <div>&nbsp;</div>
              <ul class="list-inline">
                 <li>
-                   <a href="https://www.facebook.com/nafanngo
+                   <a target="__blank" style="color:white" href="https://www.facebook.com/nafanngo
                       "><i class="fa fa-facebook"></i></a>
                 </li>
                 <li>
-                   <a href="#
+                   <a target="__blank" style="color:white" href="#
                       "><i class="fa fa-twitter"></i></a>
                 </li>
                 <li>
-                   <a href="https://www.youtube.com/@nafan4421
+                   <a target="__blank" style="color:white" href="https://www.youtube.com/@nafan4421
                       "><i class="fa fa-youtube"></i></a>
                 </li>
                 <li>
-                   <a href="#
-                      "><i class="fa fa-linkedin"></i></a>
+                   <a style="color:white" target="__blank" href="https://instagram.com/nafan_nepal?igshid=NTc4MTIwNjQ2YQ=="><i class="fa fa-instagram"></i></a>
                 </li>
              </ul>
           </div>
           <div class="col-xs-12 col-sm-3">
              <h5>Quick Links</h5>
              <ul>
-                <li><a href="https://www.facebook.com/nafanngo">Facebook Page</a></li>
-                <li><a href="https://www.youtube.com/@nafan4421">Toutube</a></li>
+                <li style="color:white"><a style="color:white" href="https://www.facebook.com/nafanngo">Facebook Page</a></li>
+                <li style="color:white"><a style="color:white" href="https://www.youtube.com/@nafan4421">Toutube</a></li>
 
              </ul>
           </div>
@@ -296,7 +295,17 @@ responsive: {
 }
 });
 })
+
+
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+<script>
+    function preventDownload(event) {
+        // Add your custom logic here to prevent downloading
+        // For example, you can disable right-click and context menu
+        event.preventDefault();
+        return false;
+    }
+</script>
 </body>
 </html>
