@@ -114,7 +114,7 @@
              <h5>Contact Us</h5>
              {{-- <div><span style="font-size:16px"><strong>Nafan</strong></span></div> --}}
              {{-- <div><span style="font-size:16px"><strong>Mr Bhola Bhattarai (Executive Director)</strong></span></div> --}}
-             <div><span style="font-size:14px">NAFAN Secretariat</span></div>
+             <div><span style="font-size:14px">National Forum For Advocacy Nepal(NAFAN) Secretariat</span></div>
              <div><span style="font-size:14px">Jwagal UN Park,Lalitpur Nepal</span></div>
              <div><span style="font-size:14px">Tel: 9841325488,9851074770, 9841444966</span></div>
              <div><span style="font-size:14px">Email: nafannepal8@gmail.com</span></div>
