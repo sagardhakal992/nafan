@@ -193,7 +193,7 @@
                                         <ul>
                                             @foreach ($publications as $publication)
                                            <li>
-                                            <a target="_blank" href="/storage/{{$publication->file_url}}"><i class="fa fa-link"></i>{{$publication->name}}</a>
+                                            <a target="_blank" href="/storage/{{$publication->file_url}}">{{$publication->name}}</a>
 
                                          </li>
                                            @endforeach
@@ -206,7 +206,7 @@
                         </div>
                      </div>
                      <hr>
-                     {{-- <div class="gallery-section">
+                     <div class="gallery-section">
                         <div class="row">
                            <div class="col-xs-12">
                               <h1 style="color:#00ADEF">Our Gallery</h1>
@@ -236,7 +236,7 @@
                            </div>
                         </div>
                      </div>
-                     <hr> --}}
+                     <hr>
 
                      <hr />
                      <x-gallery-change :items=$gallery />
