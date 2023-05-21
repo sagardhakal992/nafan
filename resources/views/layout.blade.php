@@ -55,6 +55,51 @@
                     font-weight:300;
                     font-size: 20px
                   }
+                  .partner-list {
+  width: 80%;
+  margin:5px auto;
+  overflow-x: scroll;
+  white-space: nowrap;
+
+}
+
+.partner-list::-webkit-scrollbar {
+  width: 0.0em;
+  height: 0.0em;
+}
+
+.partner-list::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.partner-list::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.partner-item {
+  display: inline-block;
+  width: 250px;
+  height: 100px;
+  margin-right: 10px;
+  animation: scroll 5s linear infinite;
+}
+
+.partner-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(450%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+
                </style>
             </head>
             <body>
@@ -107,6 +152,7 @@
                @yield("content")
 
 
+<x-partner-slider />
 <footer>
     <div class="container">
        <div class="row">
@@ -300,8 +346,10 @@ responsive: {
 
 
 </script>
+@stack('scripts')
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 <script>
+
     function preventDownload(event) {
         // Add your custom logic here to prevent downloading
         // For example, you can disable right-click and context menu
