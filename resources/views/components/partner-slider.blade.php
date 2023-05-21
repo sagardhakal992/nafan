@@ -2,7 +2,7 @@
 
     <div class="partner-container" style="display:flex;justify-content:center">
     @foreach ($partners as $partner)
-            <a target="_blank" href="{{$partner->image_link}}" class="partner-item">
+            <a target="_blank" href="{{$partner->partner_website_link}}" class="partner-item">
                 <img src="{{asset('storage/'.$partner->image_link)}}" alt="Partner 2" width="300" height="100">
             </a>
     @endforeach
