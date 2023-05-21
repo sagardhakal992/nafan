@@ -70,8 +70,8 @@
                                  <span class="icon-bar"></span>
                                  </button>
                                  {{-- <a class="navbar-brand " id="logo_mobile" href="/"><img style="height: 80px" src="https://nafan.org/assets/frontend/img/logo3.jpg" alt="Nafan" class="img-responsive"></a> --}}
-                                 <a class="navbar-brand "  id="logo_desktop" href="/"><img style="height: 80px" src="https://nafan.org/assets/frontend/img/336476284_959337635509891_8053480771035072039_n.jpg" alt="Nafan" class="img-responsive"></a>
-                                 <a class="navbar-brand "  id="logo_mobile" href="/"><img  src="https://nafan.org/assets/frontend/img/336476284_959337635509891_8053480771035072039_n.jpg" alt="Nafan" class="img-responsive"></a>
+                                 <a class="navbar-brand "  id="logo_desktop" href="/"><img style="height: 100px;object-fit:fill;width:350px" src="{{asset('assets/frontend/img/logo2.jpg')}}" alt="Nafan" class=""></a>
+                                 <a class="navbar-brand "  id="logo_mobile" href="/"><img style="height: 70px;object-fit:fill;width:300px"  src="{{asset('assets/frontend/img/logo2.jpg')}}" alt="Nafan" class=""></a>
                               </div>
                               <div class="navbar-collapse collapse">
                                  <!-- Left nav -->
